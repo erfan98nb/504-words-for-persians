@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lA7-uG-OAQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LS-->
+        <scene sceneID="bYQ-fS-LiF">
+            <objects>
+                <viewController id="lA7-uG-OAQ" customClass="LS" customModule="_04Words" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xhk-JL-6aV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="O46-tb-TPJ">
+                                <rect key="frame" x="103.5" y="224" width="207" height="448"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="z9P-wo-i55"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="O46-tb-TPJ" firstAttribute="centerX" secondItem="xhk-JL-6aV" secondAttribute="centerX" id="Lbs-s7-EJH"/>
+                            <constraint firstItem="O46-tb-TPJ" firstAttribute="width" secondItem="xhk-JL-6aV" secondAttribute="width" multiplier="0.5" id="pLN-nh-Q4b"/>
+                            <constraint firstItem="O46-tb-TPJ" firstAttribute="centerY" secondItem="xhk-JL-6aV" secondAttribute="centerY" id="s8G-ms-AMx"/>
+                            <constraint firstItem="O46-tb-TPJ" firstAttribute="height" secondItem="xhk-JL-6aV" secondAttribute="height" multiplier="0.5" id="wrH-hF-VJn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Image" destination="O46-tb-TPJ" id="gjk-wZ-hPm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XGF-RG-QIN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1500" y="64"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="200" height="200"/>
+    </resources>
+</document>
